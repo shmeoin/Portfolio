@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eoin Cooke</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="https://use.typekit.net/gvc7cpm.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="css/stars.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script async type="text/javascript" src="js/jquery_color.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript" src="js/script.jsx"></script>  
+
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+        <script>$("header").load("header.html");</script>
+    </header>
+
+    <main id="fullpage">
+        <div class="section fp-section fp-table fp-section-1" data-anchor="top" id="section1"> 
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div id="stars3"></div>
+            <div class="title">
+                <div class="titleMain">Eoin<br />Cooke</div>
+                <div class="titleDesc">Web Designer, Graphic Designer, <br />UX & UI Designer, Writer</div>
+            </div>
+            <div id="scene">
+            <div id="planets" >
+                <img id="mainPlanet" src="svg/planet1.svg">
+                <img id="smallMoon" src="svg/moon.svg"> 
+                <img id="planetbotL" src="svg/planet2.svg">
+                <img id="planetTop" src="svg/planet3.svg">
+                <img id="planetbotR" src="svg/planet4.svg">
+            </div>
+            </div>
+        </div>
+        <div class="section fp-section fp-table fp-section-2" data-anchor="work" id="section2">
+            <div id="stars"></div>
+            <div id="stars2"></div>
+            <div class="title">
+                <div class="titleMain">My<br />Work</div>
+                <div class="titleDesc"></div>
+            </div>
+            <div class="cardContainer">
+                <div class="card">
+                    <a href="/graphic-design.html">
+                        <img class="cardImg" src="img/fp-graphics.jpg">
+                        <div class="cardText"> Graphic Design</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/videography.html">
+                        <img class="cardImg" src="img/fp-video.jpg">
+                        <div class="cardText">Videography</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/flyUX.html">
+                        <img class="cardImg" src="img/fp-ux.jpg">
+                        <div class="cardText">UX Design</div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="/web-design.html">
+                        <img class="cardImg" src="img/fp-web.jpg">
+                        <div class="cardText">Web Design</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="section fp-section fp-table fp-section-3" data-anchor="about" id="section3">
+            <div id="stars" style="opacity:0.5;"></div>
+            <div class="title">
+                <div class="titleMain">About<br />Me</div>
+                <div class="titleDesc">Interest in Design, Technology, <br /> Digital Media, and Film</div>
+            </div>
+           <!-- <a href="/about.html" class="button">Read More</a>-->
+            <div class="cardContainer">
+                <img id="fp-about" src="img/fp-about.jpg">
+            </div>
+        </div>
+        <div class="section fp-section fp-table fp-section-4" data-anchor="contact" id="section4">
+            <div class="title">
+                <div class="titleMain">Get In<br />Touch</div>
+                <div class="titleDesc">eoin.cooke97@gmail.com</div>
+            </div>
+            <div id="mountainRange">
+                <img src="svg/mRange.svg">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="fp-nav" class="left">
+        <ul>
+            <li data-menuanchor="top"><a href="#top"></a></li>
+            <li data-menuanchor="work"><a href="#work"></a></li>
+            <li data-menuanchor="about"><a href="#about"></a></li>
+            <li data-menuanchor="contact"><a href="#contact"></a></li>
+        </ul>
+    </div>
+    <div id="sideNav">
+        <script>$("#sideNav").load("sideNav.html");</script>
+    </div>
+  </body>
+</html>
